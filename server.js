@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/",(req,res)=>{
-	res.json("this is nodejs test for the first time uploaded")
+	res.json("Hello world this is nodejs project updated using git command from terminal")
 })
 
 app.get("/user",(req,res)=>{
